@@ -18,7 +18,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.menu-item {
+.menu-link {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -33,7 +33,7 @@ body {
     color: #404bbf
 }
 
-.adress-item {
+.adress-link {
     color: #434455;
     font-family: Roboto;
     font-style: normal;
