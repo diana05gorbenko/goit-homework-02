@@ -20,7 +20,6 @@ body {
 
 .menu-link {
     color: #2E2F42;
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
@@ -57,6 +56,7 @@ body {
 button {
     cursor: pointer;
     background: #4D5AE5;
+    font-family: Roboto;
     width: Hug (169px);
     height: Hug (56px);
     top: 428px;
@@ -97,6 +97,21 @@ h2 {
     color: #2E2F42;
 }
 
+/*Section two*/
+.section-two {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.section-two-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 /*Section three*/
 .section-three-fon {
     background-color: #F4F4FD;
