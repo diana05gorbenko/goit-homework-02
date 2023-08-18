@@ -18,7 +18,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.menu-item {
+.menu-link {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 16px;
@@ -28,14 +28,25 @@ body {
     text-align: left;
 }
 
-.adress-item {
+.menu-link:hover,
+.menu-link:focus {
+    color: #404bbf
+}
+
+.adress-link {
     color: #434455;
     font-family: Roboto;
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
     text-align: left;
+}
+
+.adress-link:hover,
+.adress-link:focus {
+    color: #404bbf
 }
 
 .section-1 {
@@ -85,7 +96,7 @@ h2 {
     color: #2E2F42;
 }
 
-h3 {
+.main-text {
     color: #2E2F42;
     font-family: Roboto;
     font-size: 20px;
@@ -95,7 +106,7 @@ h3 {
     text-align: left;
 }
 
-p {
+.text {
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
