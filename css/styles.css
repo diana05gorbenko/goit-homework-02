@@ -76,13 +76,13 @@ h1 {
 }
 
 h2 {
-    color: #2E2F42;
     font-family: Roboto;
     font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
 
 h3 {
