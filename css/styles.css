@@ -49,10 +49,21 @@ body {
     color: #404bbf
 }
 
-.section-1 {
-    background: #2E2F42;
+
+
+/* Section 1 */
+.hero-image {
+    background-color: #2E2F42;
 }
 
+.big-text {
+    color: #FFFFFF;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
 
 .button {
     font-family: Roboto, sans-serif;
