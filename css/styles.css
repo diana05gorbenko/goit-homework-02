@@ -33,6 +33,10 @@ body {
     color: #404bbf
 }
 
+.address {
+    font-style: normal:
+}
+
 .adress-link {
     color: #434455;
     font-style: normal;
@@ -93,39 +97,66 @@ h2 {
     color: #2E2F42;
 }
 
-.main-text {
+/*Section three*/
+.section-three-fon {
+    background-color: #F4F4FD;
+}
+
+.section-three-maintext {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     color: #2E2F42;
-    font-family: Roboto;
+    background-color: #F4F4FD;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.section-three {
     font-size: 20px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: left;
+    color: #2E2F42;
+    background-color: #FFFFFF;
 }
 
-.text {
-    color: #434455;
-    font-family: Roboto;
+.section-three-text {
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
-.our-team {
-    background: #F4F4FD;
+/*Section four*/
+.section-four {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    text-align: center;
+    text-transform: capitalize;
 }
 
-.team-card {
-    background: #FFFFFF;
-    width: Hug (264px) 
-    height: Hug (380px) 
-    top: 1248px 
-    left: 156px 
-    padding: 0px 0px 32px 0px 
-    border-radius: 0px 0px 4px 4px 
-    gap: 32px
+.section-four-maintext {
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-four-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .footer {
