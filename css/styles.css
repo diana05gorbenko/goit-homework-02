@@ -33,7 +33,7 @@ body {
 }
 
 .address {
-    font-style: normal:
+    font-style: normal;
 }
 
 .address-link {
@@ -44,8 +44,8 @@ body {
     letter-spacing: 0.02em;
 }
 
-.adress-link:hover,
-.adress-link:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf
 }
 
