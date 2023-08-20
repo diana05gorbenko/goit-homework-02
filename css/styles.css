@@ -1,3 +1,9 @@
+/* ПРИХОВАТИ СПИСКИ */
+.hidden-list {
+    list-style-type: none;
+}
+
+/* ЛОГОТИП */
 .logo {
     color: #4D5AE5;
     font-family: Raleway, sans-serif;
@@ -18,6 +24,7 @@
     text-decoration: none;
 }
 
+/* ОСНОВА САЙТУ */
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -49,7 +56,6 @@ body {
 .address {
     font-style: normal;
 }
-
 
 .address-link {
     font-size: 16px;
@@ -95,6 +101,7 @@ body {
 }
 
 /*Section two*/
+
 .section-two {
     font-size: 20px;
     font-weight: 500;
@@ -174,7 +181,6 @@ body {
     color: #434455;
 }
 
-
 /*Footer*/
 .footer {
     background-color: #2E2F42;
@@ -187,7 +193,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-
 
 .footer>.logo>.logo-span {
     color: #F4F4FD;
