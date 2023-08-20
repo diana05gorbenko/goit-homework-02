@@ -6,10 +6,16 @@
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .studio {
     color: #2E2F42;
+    text-decoration: none;
+}
+
+.logo-span {
+    text-decoration: none;
 }
 
 body {
@@ -18,13 +24,17 @@ body {
     background-color: #FFFFFF;
 }
 
+.menu-item {
+    list-style-type: none; 
+}
+
 .menu-link {
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    text-align: left;
+    text-decoration: none;
 }
 
 .menu-link:hover,
@@ -32,23 +42,27 @@ body {
     color: #404bbf
 }
 
+.address-item {
+    list-style-type: none;
+}
+
 .address {
     font-style: normal;
 }
+
 
 .address-link {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    text-decoration: none;
 }
 
 .address-link:hover,
 .address-link:focus {
     color: #404bbf
 }
-
-
 
 /* Section 1 */
 .hero-image {
@@ -80,26 +94,6 @@ body {
     background-color: #404BBF;
 }
 
-h1 {
-    color: #ffffff;
-    font-family: Roboto;
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 60px;
-    letter-spacing: 0.02em;
-    text-align: center;
-}
-
-h2 {
-    font-family: Roboto;
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: #2E2F42;
-}
-
 /*Section two*/
 .section-two {
     font-size: 20px;
@@ -122,7 +116,6 @@ h2 {
 
 .section-three-maintext {
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2E2F42;
@@ -132,13 +125,18 @@ h2 {
 }
 
 .section-three {
+    color: #2E2F42;
+    background-color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+}
+
+.section-three-link {
     background-color: #FFFFFF;
 }
+
 
 .section-three-text {
     font-size: 16px;
@@ -151,6 +149,15 @@ h2 {
 
 /*Section four*/
 .section-four {
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.section-four-maintext {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -158,15 +165,6 @@ h2 {
     background-color: #FFFFFF;
     text-align: center;
     text-transform: capitalize;
-}
-
-.section-four-maintext {
-    color: #2E2F42;
-    background-color: #FFFFFF;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
 }
 
 .section-four-text {
